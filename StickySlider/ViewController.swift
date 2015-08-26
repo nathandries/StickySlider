@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var mySlider: UISlider!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +23,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func sliderMoved(sender: UISlider) {
+        sender.setValue(Float(lroundf(mySlider.value)), animated: true)
+        println(mySlider.value)
+    }
 }
 
