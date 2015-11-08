@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 
     @IBAction func sliderMoved(sender: UISlider) {
         sender.setValue(Float(lroundf(mySlider.value)), animated: true)
-        println(mySlider.value)
+        print(mySlider.value)
     }
 }
 

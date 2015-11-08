@@ -156,6 +156,7 @@
 		50DFD1471B8D3EBA00657186 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = nathandries;
 				TargetAttributes = {
@@ -409,6 +410,7 @@
 				50DFD1701B8D3EBA00657186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50DFD1711B8D3EBA00657186 /* Build configuration list for PBXNativeTarget "StickySliderTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +419,7 @@
 				50DFD1731B8D3EBA00657186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
