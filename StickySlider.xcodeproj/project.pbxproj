@@ -12,18 +12,7 @@
 		50DFD15A1B8D3EBA00657186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DFD1581B8D3EBA00657186 /* Main.storyboard */; };
 		50DFD15C1B8D3EBA00657186 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DFD15B1B8D3EBA00657186 /* Images.xcassets */; };
 		50DFD15F1B8D3EBA00657186 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50DFD15D1B8D3EBA00657186 /* LaunchScreen.xib */; };
-		50DFD16B1B8D3EBA00657186 /* StickySliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DFD16A1B8D3EBA00657186 /* StickySliderTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		50DFD1651B8D3EBA00657186 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 50DFD1471B8D3EBA00657186 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 50DFD14E1B8D3EBA00657186;
-			remoteInfo = StickySlider;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		50DFD14F1B8D3EBA00657186 /* StickySlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickySlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,20 +22,12 @@
 		50DFD1591B8D3EBA00657186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50DFD15B1B8D3EBA00657186 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		50DFD15E1B8D3EBA00657186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		50DFD1641B8D3EBA00657186 /* StickySliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickySliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DFD1691B8D3EBA00657186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50DFD16A1B8D3EBA00657186 /* StickySliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickySliderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		50DFD14C1B8D3EBA00657186 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50DFD1611B8D3EBA00657186 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				50DFD14F1B8D3EBA00657186 /* StickySlider.app */,
-				50DFD1641B8D3EBA00657186 /* StickySliderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,24 +112,6 @@
 			productReference = 50DFD14F1B8D3EBA00657186 /* StickySlider.app */;
 			productType = "com.apple.product-type.application";
 		};
-		50DFD1631B8D3EBA00657186 /* StickySliderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 50DFD1711B8D3EBA00657186 /* Build configuration list for PBXNativeTarget "StickySliderTests" */;
-			buildPhases = (
-				50DFD1601B8D3EBA00657186 /* Sources */,
-				50DFD1611B8D3EBA00657186 /* Frameworks */,
-				50DFD1621B8D3EBA00657186 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				50DFD1661B8D3EBA00657186 /* PBXTargetDependency */,
-			);
-			name = StickySliderTests;
-			productName = StickySliderTests;
-			productReference = 50DFD1641B8D3EBA00657186 /* StickySliderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -157,15 +119,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = nathandries;
 				TargetAttributes = {
 					50DFD14E1B8D3EBA00657186 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					50DFD1631B8D3EBA00657186 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 50DFD14E1B8D3EBA00657186;
+						DevelopmentTeam = 4NM3YJ3VGK;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -183,7 +143,6 @@
 			projectRoot = "";
 			targets = (
 				50DFD14E1B8D3EBA00657186 /* StickySlider */,
-				50DFD1631B8D3EBA00657186 /* StickySliderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,13 +158,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50DFD1621B8D3EBA00657186 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -218,23 +170,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50DFD1601B8D3EBA00657186 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50DFD16B1B8D3EBA00657186 /* StickySliderTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		50DFD1661B8D3EBA00657186 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 50DFD14E1B8D3EBA00657186 /* StickySlider */;
-			targetProxy = 50DFD1651B8D3EBA00657186 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		50DFD1581B8D3EBA00657186 /* Main.storyboard */ = {
@@ -269,8 +205,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -314,8 +252,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -334,6 +274,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -342,10 +283,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4NM3YJ3VGK;
 				INFOPLIST_FILE = StickySlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nathandries.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -353,46 +296,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4NM3YJ3VGK;
 				INFOPLIST_FILE = StickySlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nathandries.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		50DFD1721B8D3EBA00657186 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = StickySliderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nathandries.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StickySlider.app/StickySlider";
-			};
-			name = Debug;
-		};
-		50DFD1731B8D3EBA00657186 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = StickySliderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nathandries.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StickySlider.app/StickySlider";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -413,15 +322,6 @@
 			buildConfigurations = (
 				50DFD16F1B8D3EBA00657186 /* Debug */,
 				50DFD1701B8D3EBA00657186 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		50DFD1711B8D3EBA00657186 /* Build configuration list for PBXNativeTarget "StickySliderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				50DFD1721B8D3EBA00657186 /* Debug */,
-				50DFD1731B8D3EBA00657186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

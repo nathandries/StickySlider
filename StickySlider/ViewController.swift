@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     }
 
 
-    @IBAction func sliderMoved(sender: UISlider) {
+    @IBAction func sliderMoved(_ sender: UISlider) {
         sender.setValue(Float(lroundf(mySlider.value)), animated: true)
         print(mySlider.value)
     }
